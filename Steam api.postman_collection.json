@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "f2c864d7-75d3-4860-af5a-cc6744c47138",
+		"name": "Steam api",
+		"description": "3 services of steam web api.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetItems",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.steampowered.com/IEconItems_570/GetPlayerItems/v1?steamid=76561198064633985&key=14E2F206F0BF02A0F2C7B4A4CAA38D07",
+					"protocol": "https",
+					"host": [
+						"api",
+						"steampowered",
+						"com"
+					],
+					"path": [
+						"IEconItems_570",
+						"GetPlayerItems",
+						"v1"
+					],
+					"query": [
+						{
+							"key": "steamid",
+							"value": "76561198064633985"
+						},
+						{
+							"key": "key",
+							"value": "14E2F206F0BF02A0F2C7B4A4CAA38D07"
+						}
+					]
+				},
+				"description": "Get the list of items in the player's inventory."
+			},
+			"response": []
+		},
+		{
+			"name": "GetHeroes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Get all dota2 heroes."
+			},
+			"response": []
+		},
+		{
+			"name": "GetNumberOfPlayersOnlineDota2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
