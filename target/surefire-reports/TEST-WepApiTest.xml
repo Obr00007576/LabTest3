@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="WepApiTest" time="3.184" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.boot.library.path" value="F:\Jdk13\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hkl19\WepApiTest"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\hkl19\WepApiTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hkl19\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="F:\apache-maven-3.6.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="F:\Jdk13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;F:\apache-maven-3.6.2\;F:\Jdk13\;F:\Git\bin\;F:\Jdk13\bin;F:\apache-maven-3.6.2\bin;F:\apache-maven-3.6.2\bin;C:\Users\hkl19\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\hkl19\AppData\Local\Programs\Python\Python38-32\;C:\Users\hkl19\AppData\Local\Microsoft\WindowsApps;F:\IntelliJ IDEA Community Edition 2019.2.4\bin;;F:\Microsoft VS Code\bin;F:\apache-maven-3.6.2\bin;F:\Jdk13\bin;F:\PyCharm Community Edition 2019.2.5\bin;;;."/>
+    <property name="maven.conf" value="F:\apache-maven-3.6.2\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="F:\apache-maven-3.6.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\hkl19"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="hkl19970923"/>
+    <property name="java.class.path" value="F:\apache-maven-3.6.2\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="F:\Jdk13"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="maven.home" value="F:\apache-maven-3.6.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="WepApiTest" name="test1" time="2.823"/>
+  <testcase classname="WepApiTest" name="test2" time="0.361"/>
+</testsuite>
