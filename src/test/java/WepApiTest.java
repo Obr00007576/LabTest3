@@ -28,13 +28,13 @@ public class WepApiTest {
     public void test2()
     {
         var appid = 570;
-        var url = "https://api.steampowered.com/IEconDOTA2_205790/GetHeroes/v1";
+        var url = "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/";
         RestAssured.given().queryParam("key",key)
                 .queryParam("appid",appid)
                 .when()
                 .get(url)
                 .then()
-                .body("response", Matchers.allOf(Matchers.greaterThan(new BigInteger("0")),Matchers.lessThan(new BigInteger("100000000"))))
-                .body("result", Matchers.is(1));
+                .body("response.player_count", Matchers.allOf(Matchers.greaterThan(0),Matchers.lessThan(100000000)))
+                .body("response.result", Matchers.is(1));
     }
 }
