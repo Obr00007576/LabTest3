@@ -34,7 +34,7 @@ public class WepApiTest {
                 .when()
                 .get(url)
                 .then()
-                .body("response.player_count", Matchers.allOf(Matchers.greaterThan(0),Matchers.lessThan(100000000)))
+                .body("response.player_count", Matchers.allOf(Matchers.greaterThan(0),Matchers.lessThan(new BigInteger("300000000").intValue())))
                 .body("response.result", Matchers.is(1));
     }
 }
